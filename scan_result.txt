@@ -1,0 +1,36 @@
+# Nmap 7.95 scan initiated Mon Sep 22 16:33:05 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan_result.txt 192.168.31.237/24
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.030s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address: 8C:83:94:47:5A:10 (Arcadyan)
+
+Nmap scan report for SetTopBox-3780.lan (192.168.31.85)
+Host is up (0.021s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+2869/tcp  open  icslap
+33899/tcp open  unknown
+MAC Address: CC:F5:5F:E2:78:40 (E Focus Instruments India Private Limited)
+
+Nmap scan report for at608.lan (192.168.31.221)
+Host is up (0.022s latency).
+All 1000 scanned ports on at608.lan (192.168.31.221) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: E2:8D:1D:95:AD:44 (Unknown)
+
+Nmap scan report for Ravi.lan (192.168.31.237)
+Host is up (0.0000020s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+902/tcp  open  iss-realsecure
+7070/tcp open  realserver
+
+# Nmap done at Mon Sep 22 16:36:39 2025 -- 256 IP addresses (4 hosts up) scanned in 214.12 seconds
